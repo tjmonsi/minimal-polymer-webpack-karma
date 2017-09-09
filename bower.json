@@ -1,0 +1,21 @@
+{
+  "name": "minimal-polymer-webpack-karma",
+  "description": "Test karma",
+  "main": "index.js",
+  "authors": [
+    "Toni-Jan Keith Monserrat <tonijanmonserrat@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/tjmonsi/minimal-polymer-webpack-karma",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^2.0.2",
+    "webcomponentsjs": "webcomponents/webcomponentsjs#v1.0.7"
+  }
+}
