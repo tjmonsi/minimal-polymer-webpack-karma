@@ -17,3 +17,5 @@ $ karma start karma.conf.js                          # this doesn't work and it 
 Uncaught TypeError: Failed to construct 'HTMLElement': Please use the 'new' operator, this DOM object constructor cannot be called as a function.
   at src/shell.test.js:12139
 ```
+
+Only difference between the two karma configuration files is that the latter one doesn't have `babel-loader` plugin
