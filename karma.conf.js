@@ -16,7 +16,8 @@ module.exports = function(config) {
     // list of files / patterns to load in the browser
     files: [
       // {pattern: '../bower_components/**/*', included: false, served: true, watched: true},
-      {pattern: './src/*.test.js', included: true}
+      {pattern: './bower_components/webcomponentsjs/custom-elements-es5-adapter.js', included: true, watched: false},
+      {pattern: './src/*.test.js', included: true, watched: true}
     ],
 
     webpack: {
